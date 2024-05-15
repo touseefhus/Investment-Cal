@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    color: white;
+}
+#header{
+    text-align: center;
+    margin: 3rem auto;
+}
+#header img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: contain;
+}
+#header h1{
+    font-size: 1.5rem;
+    color: white;
+}
+#user-input {
+    max-width: 800px;
+    margin: auto;
+    background-image: linear-gradient(to right, #78e08f, #0fbcf9);
+}
+
+.input-group{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+}
+.input-group label{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    display: block;
+}
+.input-group input{
+    padding: 5px 10px;
+    line-height: 25px;
+    outline: none;
+}
+
+
+#result {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    max-width: 900px;
+    margin: auto;
+  }
+  .table-heading th{
+    color: #78e08f;
+  }
+  tbody td{
+    color: #0fbcf9;
+  }
+  
+  .table-heading th,
+  tbody td {
+    padding: 10px; /* Padding for table cells */
+    text-align: center; /* Center align text */
+  }
+  
